@@ -3,8 +3,8 @@ import Results from "./Results";
 
 const UserInput = () => {
   const [data, setData] = useState({
-    lbs: 12,
-    kgs: 12,
+    lbs: 5,
+    kgs: 2.3,
   });
 
   function changeHandler(key, value) {
